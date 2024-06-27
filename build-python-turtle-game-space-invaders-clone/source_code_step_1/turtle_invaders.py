@@ -1,14 +1,14 @@
 import turtle
 
 window = turtle.Screen()
-window.setup(0.5, 0.75)
+window.setup(0.25, 0.5)
 window.bgcolor(0.2, 0.2, 0.2)
 window.title("The Real Python Space Invaders")
 
-LEFT = -window.window_width() / 2
-RIGHT = window.window_width() / 2
-TOP = window.window_height() / 2
-BOTTOM = -window.window_height() / 2
+LEFT =     -window.window_width()  / 2
+RIGHT =     window.window_width()  / 2
+TOP =       window.window_height() / 2
+BOTTOM =   -window.window_height() / 2
 FLOOR_LEVEL = 0.9 * BOTTOM
 
 # Create laser cannon
